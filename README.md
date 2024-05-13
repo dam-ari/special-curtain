@@ -6,3 +6,9 @@
   <source src="./rec.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+<!-- ToDo list in Summary -->
+- choose different font types from dropdown list
+- edit text on dbclick
+- 
