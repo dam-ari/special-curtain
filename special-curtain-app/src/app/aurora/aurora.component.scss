@@ -64,17 +64,6 @@ $matrix-v: 20;
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
-
-// HTML,
-// BODY {
-//   width: 100%;
-//   height: 100%;
-//   }
-
-// BODY {
-//   background: #000;
-// }
 .demo--dancing-shadows{
   overflow: scroll;
 }
@@ -100,7 +89,7 @@ $matrix-v: 20;
     // font-size: 20vh; 
     line-height: 1.01;
     font-style: bold;
-    font-family: Lobster;
+
     background: $title-bg-color;
     text-shadow: 
       0 .1rem $title-bg-color,
