@@ -1,0 +1,14 @@
+
+
+<div class="demo--dancing-shadows">
+    <h1 class="demo--dancing-shadows__title">
+    <span class="text-wrapper">
+        <span class="text-items">
+        <!-- Use *ngFor to iterate over textItems and generate spans -->
+        <span *ngFor="let item of text; let i = index" class="text-item text-item--{{i + 1}}">
+            {{ item }}
+        </span>
+        </span>
+    </span>
+    </h1>
+</div>

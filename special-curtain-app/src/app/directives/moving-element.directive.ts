@@ -32,8 +32,8 @@ export class MovingElementDirective implements OnInit {
                   // Add the animation styles directly
                   const animationCss = `
                     @keyframes moveRight {
-                      from { transform: translateY(0); }
-                      to { transform: translateY(65vh); }
+                      from { transform: translateY(-10vh); opacity: 100% }
+                      to { transform: translateY(85vh); opacity: 10%}
                     }
               
                     .moving-element-animate {
