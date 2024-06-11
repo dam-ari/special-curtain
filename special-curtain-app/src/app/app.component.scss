@@ -174,14 +174,33 @@
 
 
 :host {
+  overflow: scroll;
   .container {
+    top: 10px;
+    width: 50px;
+    height: 50px;
     margin: 15px;
     padding: 5vw;
     align-items: start;
-    font-size: 12vh; 
+    font-size: 5vh;
       text-align: center;
       text-wrap: wrap;
       font-family: "Lobster", sans-serif;
+
+  }
+  .left {
+    text-align: left;
+    font-family: "Inter Tight";
+  }
+
+  .mm {
+    position: fixed;
+    font-size: 5vh;
+    font-family: "Inter Tight";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }

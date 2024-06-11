@@ -9,6 +9,7 @@
 
 
 <!-- ToDo list in Summary -->
+TODO:
 - choose different font types from dropdown list
 - edit text on dbclick
 - add ability to customize font size

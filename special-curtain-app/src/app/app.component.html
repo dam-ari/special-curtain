@@ -4,7 +4,7 @@
 
     <div class="left-side">
       <h1 >Hello, {{ title }}
-        
+
       </h1>
       <div appMovingElement="salmon" [duration]="15" class="pill">
         ✨🦄🪽
@@ -16,9 +16,15 @@
   </div>
 </main>
 
-<div class="container">
+<div class="mm">
   <app-aurora [text]="['This is me calling', 'Out of Africa', 'And right into the wild wild west...']"></app-aurora>
+  <app-aurora class="left" [text]="['Oh by the mother of the unicorns, what have you done!']"></app-aurora>
 </div>
+<!-- <div class="container">
+  <app-aurora class="left" [text]="['Oh by the mother of the unicorns, what have you done!']"></app-aurora>
+
+</div> -->
+
 <!-- <div class="demo--dancing-shadows">
   <h1 class="demo--dancing-shadows__title">
     <span class="text-wrapper">
